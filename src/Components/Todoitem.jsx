@@ -8,7 +8,7 @@ const Todoitem = ({item,date,handleDelete}) => {
         <div className="col col-lg-2">{item}</div>
         <div className="col-3">{date}</div>
         <div className="col-auto">
-          <button type="button" className="btn btn-danger" onClick={()=>handleDelete(item)}>
+          <button type="button" className="btn btn-success" onClick={()=>handleDelete(item)}>
             Delete
           </button>
         </div>
